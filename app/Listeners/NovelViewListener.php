@@ -9,6 +9,8 @@ use Redis;
 
 class NovelViewListener
 {
+    const REDIS_KEY_VIEW_MONTH = 'cache.redis.view_month';
+    const REDIS_KEY_VIEW_WEEK = 'cache.redis.view_week';
     /**
      * Create the event listener.
      *
